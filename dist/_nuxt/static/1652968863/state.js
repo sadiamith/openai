@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a,b){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1652968863",layout:"default",error:a,serverRendered:true,routePath:b,config:{baseAPI_URL:"https:\u002F\u002Fapi.openai.com\u002Fv1\u002Fengines\u002Ftext-curie-001\u002F",_app:{basePath:b,assetsPath:"\u002F_nuxt\u002F",cdnURL:a}}}}(null,"\u002F"));
