@@ -1,4 +1,8 @@
 export default {
+  server: {
+    port: process.env.PORT,
+    host: process.env.HOST,
+  },
   env: {
     SECRET_API_KEY: process.env.SECRET_API_KEY,
   },
