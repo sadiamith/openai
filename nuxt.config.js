@@ -1,4 +1,7 @@
 export default {
+  env: {
+    SECRET_API_KEY: process.env.SECRET_API_KEY,
+  },
   target: "static",
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
