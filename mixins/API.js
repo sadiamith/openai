@@ -5,7 +5,7 @@ export default {
       const headers = {
         "Content-Type": "application/json",
         Authorization: `Bearer ${process.env.SECRET_API_KEY}`,
-        "Access-Control-Request-Method": "GET",
+        "Access-Control-Request-Method": "POST",
         "Access-Control-Request-Headers": Authorization,
       };
 
