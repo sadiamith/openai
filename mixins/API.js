@@ -4,8 +4,7 @@ export default {
     async apiRequest(type, endpoint, data) {
       const headers = {
         "Content-Type": "application/json",
-        Authorization:
-          "Bearer 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",
+        Authorization: `Bearer ${process.env.SECRET_API_KEY}`,
       };
 
       const api =
