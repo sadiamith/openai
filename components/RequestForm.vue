@@ -41,7 +41,7 @@ export default {
   },
   methods: {
     async sendMessage() {
-      const response = await this.apiPost("completions/", this.messageArea);
+      const response = await this.apiPost("completions", this.messageArea);
       this.robotResponse = response;
 
       this.allMessageStore.push({
