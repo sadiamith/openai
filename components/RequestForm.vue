@@ -57,6 +57,7 @@ export default {
     },
     clearStorage() {
       localStorage.clear();
+      window.location.reload();
     },
   },
 };
