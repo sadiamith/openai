@@ -1,6 +1,6 @@
 # frontEnd_Challenge
 
-Please clone the git repo, run yarn install and then run yarn dev on the command line to start the application.
+Please clone the git repo, run "yarn install" and then run "yarn dev" on the command line to start the application.
 
 Screenshot of the application attached below: 
 
