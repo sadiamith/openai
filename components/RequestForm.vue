@@ -1,4 +1,3 @@
-yarn
 <template>
   <div>
     <b-field label="Enter Prompt">
