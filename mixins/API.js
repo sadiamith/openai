@@ -4,10 +4,9 @@ export default {
     async apiRequest(type, endpoint, data) {
       const headers = {
         "Content-Type": "application/json",
-        Authorization: `Bearer ${process.env.NODE_ENV.SECRET_API_KEY}`,
+        Authorization: `Bearer ${process.env.NUXT_ENV_MY_VARIABLE}`,
       };
 
-      console.log("this is the header: ", headers);
       const api =
         "https://api.openai.com/v1/engines/text-curie-001/" + endpoint;
 
