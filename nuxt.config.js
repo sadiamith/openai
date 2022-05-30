@@ -32,7 +32,7 @@ export default {
   buildModules: [],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ["@nuxtjs/axios", "nuxt-buefy"],
+  modules: ["@nuxtjs/axios", "nuxt-buefy", "@nuxtjs/dotenv"],
 
   axios: {
     proxy: true,
