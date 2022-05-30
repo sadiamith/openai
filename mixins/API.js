@@ -7,7 +7,7 @@ export default {
         Authorization: `Bearer ${process.env.SECRET_API_KEY}`,
       };
 
-      console.log(headers);
+      console.log("this is the header: ", headers);
       const api =
         "https://api.openai.com/v1/engines/text-curie-001/" + endpoint;
 
